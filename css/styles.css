@@ -7436,7 +7436,6 @@ textarea.form-control-lg {
 .align-content-stretch {
   align-content: stretch !important;
 }
-
 .align-self-auto {
   align-self: auto !important;
 }
@@ -9377,7 +9376,7 @@ textarea.form-control-lg {
     justify-content: center !important;
   }
   .justify-content-lg-between {
-    justify-content: space-between !important;
+    justify-content:last baseline !important;
   }
   .justify-content-lg-around {
     justify-content: space-around !important;
@@ -11162,4 +11161,27 @@ footer a:hover, footer a:active, footer a:focus {
 }
 #logo{
   width: 5%;
+}
+form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.circle {
+  color: #ffca2c;
 }
